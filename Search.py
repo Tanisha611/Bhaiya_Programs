@@ -10,7 +10,7 @@ try:
         stu=pickle.load(fin)
         if stu['Name'] in keys:
             print(stu)
-            found=True
+            found=True 
 except EOFError:
     if found==False:
         print("Nothing such keyword found")
